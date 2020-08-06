@@ -1,18 +1,18 @@
 {% set name = "multimethod" %}
-{% set version = "1.3" %}
+{% set version = "1.4" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: a5c04db3d34ceecd704166d4775eb04c224cb654f634679ac993eb61016b2c2d
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 8b315d6c965a797899a699913cdc391ded51dca22db5d11bda3399ce24ffed76
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -23,14 +23,14 @@ requirements:
 
 test:
   imports:
-    - multimethod 
+    - multimethod
 
 about:
-  home: "https://github.com/coady/multimethod"
+  home: https://github.com/coady/multimethod
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
-  summary: "Multiple argument dispatching."
+  summary: Multiple argument dispatching.
   doc_url: https://multimethod.readthedocs.io/en/latest/
 
 extra:
