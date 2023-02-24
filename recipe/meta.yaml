@@ -31,7 +31,7 @@ about:
   license_family: APACHE
   license_file: LICENSE.txt
   summary: Multiple argument dispatching.
-  doc_url: https://multimethod.readthedocs.io/en/latest/
+  doc_url: https://coady.github.io/multimethod/
 
 extra:
   recipe-maintainers:
