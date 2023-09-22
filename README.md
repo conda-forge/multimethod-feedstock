@@ -1,15 +1,15 @@
-About multimethod
-=================
+About multimethod-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/multimethod-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/coady/multimethod
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/multimethod-feedstock/blob/main/LICENSE.txt)
-
 Summary: Multiple argument dispatching.
 
-Documentation: https://multimethod.readthedocs.io/en/latest/
+Documentation: https://coady.github.io/multimethod/
 
 Current build status
 ====================
