@@ -1,5 +1,5 @@
 {% set name = "multimethod" %}
-{% set version = "1.11" %}
+{% set version = "1.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ef40713d84da4015285122a16f57bf5066cc7876b5eaf183262f3c34668c6ad3
+  sha256: e2bfd270a30ee4b56e64b94b8353ed10f7e7aa769cedf6cb8f1d429ce50d72ea
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
