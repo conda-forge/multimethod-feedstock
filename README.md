@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@albop](https://github.com/albop/)
+* [@timkpaine](https://github.com/timkpaine/)
 
